@@ -1,0 +1,87 @@
+
+h1, h2, h3 {
+    font-family: "the-seasons", sans-serif;
+    
+}
+
+p {
+    font-family:"Arapey", serif;
+}
+
+html {
+    background-color: #B8A399;
+}
+
+.welcome {
+    color: white;
+    margin-top: 8em;
+    font-size: 350%;
+}
+
+a:link {
+    color: #60484C;
+    text-decoration: none;
+    padding: 1em;
+}
+
+a:hover {
+    color: white;
+    background-color: #60484C;
+    text-decoration: none;
+}
+
+a:active {
+    color: #60484C;
+}
+
+a:visited {
+    color: #dfdbd9;
+}
+
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 30px solid #b7bd9a;
+    border-radius: 50%;
+    border-top: 32px solid #566029;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: center;
+  }
