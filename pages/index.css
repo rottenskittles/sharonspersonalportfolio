@@ -1,0 +1,58 @@
+html {
+  background-image: linear-gradient(#b8a399, #60484c);
+  font-family: 'the-seasons', serif;
+}
+.welcome {
+  margin-top: 14em;
+}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 200px;
+  height: 200px;
+  margin: -76px 0 0 -76px;
+  border-radius: 50%;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  box-shadow: rgba(126, 130, 113, 0.8) 0 0 90px 33px;
+}
+
+@-webkit-keyframes spin {
+  0%   {background-color: #9ea182;}
+  25%  {background-color: #4b4f3c;}
+  50%  {background-color: #605048;}
+  100% {background-color: #9ea182;}
+}
+
+@keyframes spin {
+  0%   {background-color: #9ea182;}
+  25%  {background-color: #4b4f3c;}
+  50%  {background-color: #605048;}
+  100% {background-color: #9ea182;}
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
