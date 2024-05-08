@@ -1,9 +1,44 @@
 html {
-  background-image: linear-gradient(#b8a399, #60484c);
+  background-image: linear-gradient(#b8a399, #402d25);
   font-family: 'the-seasons', serif;
 }
 .welcome {
-  margin-top: 14em;
+  margin-top: 9em;
+  font-size: 50;
+  color:#d1c9c7
+}
+
+a.tohomepage {
+color: #bcbdad;
+text-decoration: none;
+font-size: larger;
+}
+
+a.tohomepage:hover {
+  background-color:#b8a399;
+  box-shadow: #b8a399;
+  padding: 0.7em;
+  color: #4b4f3c;
+  animation: fadein ease .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 10%;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.loading {
+  text-align: center;
+  margin-top: 5.8em;
+  margin-left: 0.3em;
+  font-size: 40;
+  color: #d1c9c7
 }
 #loader {
   position: absolute;
@@ -12,11 +47,11 @@ html {
   z-index: 1;
   width: 200px;
   height: 200px;
-  margin: -76px 0 0 -76px;
+  margin: -175px 0 0 -76px;
   border-radius: 50%;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
-  box-shadow: rgba(126, 130, 113, 0.8) 0 0 90px 33px;
+  box-shadow: rgba(158, 139, 123, 0.8) 0 0 90px 33px;
 }
 
 @-webkit-keyframes spin {
@@ -33,7 +68,6 @@ html {
   100% {background-color: #9ea182;}
 }
 
-/* Add animation to "page content" */
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;
