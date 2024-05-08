@@ -1,0 +1,34 @@
+html {
+    background-image: linear-gradient(#b8a399, #402d25);
+    font-family: 'the-seasons', serif;
+    
+}
+.hidden{
+    display:none;
+}
+
+.nextBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.next {
+    background-color: #402d2500;
+    font-family: "the-seasons", serif;
+    font-size: 40;
+    border: none;
+    color: #d2c3b1;
+    margin-top: 6em;
+    padding: 1em;
+}
+
+.next:hover {
+    background-color: rgb(156, 159, 120);
+
+}
+
+.name {
+    text-align: center;
+    margin-top: 5em;
+    font-size: 80;
+}
