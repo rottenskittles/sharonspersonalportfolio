@@ -1,16 +1,19 @@
 html {
-    background-color: #d7ddbb;
+    background-color: #cbd3aa;
     padding-left: 3em;
     padding-right: 3em;
 }
 
 h1, h2, h3 {
     font-family: 'the-seasons', serif;
+    color: #60484c;
 }
 
 p {
     font-family: "Arapey", serif;
     font-size: larger;
+    color: #60484c;
+
 }
 
 .header {
@@ -27,7 +30,7 @@ a {
 
 a:hover {
     background-color: #576048;
-    color: #d1ddbb;
+    color: #c6cbaf;
     animation: fadein ease .5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -40,7 +43,24 @@ a:hover {
     100% {
       opacity: 1;
     }
-  }
+}
+
+#overlay {
+    position:fixed;
+      width: 100%; 
+      height: 100%; 
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url(/images/cardboard-texture.jpg);
+      background-size: cover;
+      animation: fadeinbg ease 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      opacity: 0.3;
+        filter:brightness(50%);
+    }
 
 .current {
     color: #88726f
@@ -52,24 +72,27 @@ a:hover {
     align-items: center;
     justify-content: end;
     font-size: 40;
-    margin: 3em 1em 2.5em 26.7em;
+    margin: 3em 1em 2.5em 0em;
+    right: 13px;
 }
 
 .underheaders {
-    padding-top: 11em;
+    padding-top: 14em;
+    
 }
 
 #leaf {
     position: absolute;
-    padding-right: 7em;
+    right: 7em;
+    filter: brightness(60%);
+    padding-top: 50px;
 }
 
 .rightalign {
     text-align: end;
-    
     display: flex;
     justify-content: end;
-    padding-left: 16em;
+    padding-left: 19em;
 }
 
 .rightheader {
@@ -80,19 +103,27 @@ a:hover {
     padding-top: 1.5em;
 }
 
-.photos {
+figure {
+    margin: 0;
+    width: 20%;
     position: absolute;
-    margin-top: 16em;
+    margin-top: 15em;
+}
+
+
+.photos {
+    left:0;
 }
 
 .photosright {
     position: absolute;
-    margin-left: 59em;
+    right: 20px;
 }
 
-.imagefooter {
+
+.imagefooterright {
     position: absolute;
-    margin-top: 35em;
-    margin-left: 3.3em;
+    top: 1020px;
+    right: 52px;
     font-size: medium;
 }
