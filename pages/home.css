@@ -72,7 +72,7 @@ p {
     font-size: 40;
     border: none;
     color: #d2c3b1;
-    margin-top: 6em;
+    margin-top: 10%;
     padding: 0.5em;
 }
 
@@ -148,10 +148,30 @@ position:fixed;
 .name {
     text-align: center;
     color:#392c28;
-    margin-top: 5em;
+    margin-top: 20%;
     font-size: 80;
     animation: fadeinall ease 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
     
+}
+
+#overlay1 {
+  position:absolute;
+  width: 100%;
+  float: right;
+    z-index: 0;
+    animation: fadeinall ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#overlay2 {
+  position:absolute;
+  width: 100%;
+  float: left;
+    z-index: 0;
+    animation: fadeinall ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
