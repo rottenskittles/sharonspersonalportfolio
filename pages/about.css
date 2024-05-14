@@ -136,20 +136,27 @@ figure {
     align-items: center;
 }
 
-.fig2 {
+.content2 {
     margin-top: 0;
+    position: initial;
     width: 100%;
-    right: 1px;
-    bottom: 180px;
-    position: absolute;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
 }
 
 .bottomhalf {
     margin-top: 5em;
-    width: 75%;
+
 }
 
+li {
+    font-family: 'Arapey', serif;
+    color: #474f3b;
+    font-size: larger;
+}
 
+footer {
+    background-color: #576048;
+    position: relative;
+    width: 100%;
+}
