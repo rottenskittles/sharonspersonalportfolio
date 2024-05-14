@@ -30,6 +30,7 @@ p {
     position: absolute;
     font-size: larger;
     color: #60484c ;
+    z-index: 6;
 }
 
 a {
@@ -106,6 +107,11 @@ a:hover {
     padding-left: 19em;
 }
 
+.header2 {
+    padding-bottom: 1.5em;
+
+}
+
 .rightheader {
     text-align: right;
     display: flex;
@@ -119,33 +125,58 @@ figure {
     margin: 0;
     width: 15%;
     position: absolute;
-    margin-top: 17em;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.fig0 {
+    margin-top: 17em; 
 }
 
 .fig {
-    font-family: "Arapey", serif;
-    color: #474f3b;
-    margin-top: 0;
     width: 15%;
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+    bottom: 320;
+
+}
+
+.fig2 {
+    position: initial;
+    display: flex;
 }
 
 .content2 {
-    margin-top: 0;
+    margin-top: 70px;
     position: initial;
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content3 {
+    margin-top: 20px;
+    position: initial;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.content4 {
+    margin-top: 60px;
 }
 
 .bottomhalf {
-    margin-top: 5em;
+    margin-top: 1em;
+    width: 75%;
 
 }
 
@@ -159,4 +190,22 @@ footer {
     background-color: #576048;
     position: relative;
     width: 100%;
+    padding: 1em;
+    padding-bottom: 5em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+
+footer h3 {
+    color: #e0dad6;
+    font-size: xx-large;
+    padding-right: 1em;
+}
+
+footer h4 a {
+    color: #acb09a;
+    display: flex;
+}
+
+
