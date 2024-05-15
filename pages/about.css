@@ -188,10 +188,13 @@ li {
 
 footer {
     background-color: #576048;
-    position: relative;
+    position: initial;
     width: 100%;
     padding: 1em;
+    margin: 0%;
     padding-bottom: 5em;
+    bottom: 0;
+    left: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -200,12 +203,15 @@ footer {
 footer h3 {
     color: #e0dad6;
     font-size: xx-large;
-    padding-right: 1em;
+    padding-right: 2em;
+    padding-left: 1em;
 }
 
 footer h4 a {
     color: #acb09a;
     display: flex;
+    font-family: 'the-seasons', serif;
+    font-size: x-large;
 }
 
 
