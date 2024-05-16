@@ -1,10 +1,9 @@
 * {
     position:relative;
-    z-index: 5;
 }
 
 html {
-    background-color:#c5a890;
+    background-color:#c3b4a9;
     padding-left: 3em;
     padding-right: 3em;
 }
@@ -33,10 +32,6 @@ p {
     position: absolute;
     font-size: larger;
     color: #60484c ;
-    z-index: 7;
-}
-
-.content {
     z-index: 6;
 }
 
@@ -81,7 +76,6 @@ a:hover {
       animation-fill-mode: forwards;
       opacity: 0.3;
         filter:brightness(50%);
-        z-index: 1;
     }
 
 .drawings {
@@ -143,7 +137,7 @@ a:hover {
 }
 
 footer {
-    background-color: #60484c;
+    background-color: #605248;
     position: relative;
     width: 100%;
     padding: 1em;

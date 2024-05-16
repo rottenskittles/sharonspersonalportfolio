@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&display=swap);
 
 html {
-    background-color: #576048;
+    background-color: #c3b4a9;
     padding-left: 3em;
     padding-right: 3em;
 }
@@ -10,7 +10,7 @@ h1,
 h2,
 h3 {
     font-family: 'the-seasons', serif;
-    color: #e0dad6;
+    color: #576048;
 }
 
 h3 {
@@ -21,20 +21,16 @@ h3 {
 p {
     font-family: "Arapey", serif;
     font-size: larger;
-    color: #e0dad6;
+    color: #576048;
 
 }
 
 a {
-    color: #e0dad6;
+    color: #576048;
     text-decoration: none;
     padding: .5em;
 }
 
-.resumelinks a {
-    color: #aa9593;
-    font-size: larger;
-}
 
 a:hover {
     background-color: #576048;
@@ -56,7 +52,7 @@ a:hover {
 
 
 .current {
-    color: #aa9593
+    color: #717767
 }
 
 
@@ -89,7 +85,7 @@ a:hover {
 
 footer {
     box-sizing: border-box;
-    background-color: #acb09a;
+    background-color: #605248;
     width: 100%;
     padding: 1em;
     padding-bottom: 3em;
@@ -105,13 +101,13 @@ footer {
 
 footer h3 {
     font-size: xx-large;
-    color: #60484c;
+    color: #acb09a;
     padding-right: 2em;
     padding-left: 1em;
 }
 
 footer h4 a {
-    color: #576048;
+    color: #aa9593;
     display: flex;
     font-family: 'the-seasons', serif;
     font-size: x-large;
@@ -150,10 +146,14 @@ h2 {
     margin: 0;
 }
 
+.iframe {
+    width: 100%;
+    height: 100%;
+}
+
 .wrapper{
     display: flex;
-    flex-flow: column;
-    height: fit-content;
+    flex-flow: row;
     justify-content: center;
     align-items: center;
     width: 100%;
