@@ -4,9 +4,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <title>sharon adelusi</title>
         <script src="server.js"></script>
-        <link rel="stylesheet" href="/css/home.css">
+        <link rel="stylesheet" href="/pages/home.css">
         <link rel="stylesheet" href="https://use.typekit.net/rzn3xcu.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,22 +15,27 @@
     </head>
 
     <body>
+        <div id="overlay1"><img class="leaves" src="/images/leaf1.png" width="175px"></div>
         <section class="starterpage" id="start">
-            <h1>sharon adelusi</h1>
+            
+            <h1 class="name">sharon adelusi</h1>
             <section class="nextBtn">
                 <button class="next" id="tointro" value="tointro">continue</button>
-            </section>
+            </section>    
         </section>
-
-        <section class="intro"></section>
-        <h1>hi, i'm sharon!</h1>
-        <img src="/images/memememe.png">
+        <section id="overlay2">
+                <img class="leaves" src="/images/leaf2.png" width="175px"></section>
+        <div id="overlay"></div>
+        <section class="hidden" id="intro">
+        <img src="/images/memememe.png" id="homephoto">
+        <h1 class="h1">hi, i'm sharon!</h1>
         <p>I’m located in California and I’m currently in my third year of high school, taking an alternative Web
             Application class at the Center for Advanced Research and Technology (CART). I want to go into dermatology when
-            I get older - as a major in college (with fashion design as my minor) and as a future career.</p>
+            I get older — as a major in college (with fashion design as my minor) and as a future career.</p>
         <p>I love anything that has to do with art — drawing, fashion, music... you name it, I’m into it. But, hey, let
             me not say too much now. </p>
-        <h2><a href="/pages/about.html">about</a>⸙<a href="/pages/resume.html">resume</a>❀<a href="/pages/portfolios.html">portfolios</a>⸙<a
+        <h2 class="mainlinks"><a href="/pages/about.html">about</a> ⸙ <a href="/pages/resume.html">resume</a> ❀ <a href="/pages/portfolios.html">portfolio</a> ⸙ <a
                 href="/pages/contact.html">contact</a></h2>
+        </section>
     </body>
     </html>

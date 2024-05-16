@@ -1,0 +1,166 @@
+* {
+    position:relative;
+    z-index: 5;
+}
+
+html {
+    background-color:#455033;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+h1, h2, h3 {
+    font-family: 'the-seasons', serif;
+    color: #e0dad6;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+
+p {
+    font-family: "Arapey", serif;
+    font-size: larger;
+    color: #e0dad6;
+    position: relative;
+
+}
+
+.header {
+    position: absolute;
+    font-size: larger;
+    color: #60484c ;
+    z-index: 7;
+}
+
+a {
+    color: #e0dad6;
+    text-decoration: none;
+    padding: .5em;
+}
+
+.resumelinks a {
+    color: #aa9593;
+    font-size: larger;
+}
+
+a:hover {
+    background-color: #576048;
+    color: #c6cbaf;
+    animation: fadein ease .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    0% {
+      opacity: 50%;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+#overlay {
+    position:fixed;
+      width: 100%; 
+      height: 100%; 
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url(/images/cardboard-texture.jpg);
+      background-size: cover;
+      animation: fadeinbg ease 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      opacity: 0.3;
+        filter:brightness(50%);
+        z-index: 1;
+    }
+
+.current {
+    color: #aa9593
+}
+
+.pageheader {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 40;
+    margin: 3em 0em 2.5em 0em;
+    right: 1px;
+}
+
+.underheaders {
+    padding-top: 17em;
+    
+}
+
+#swirl {
+    position: absolute;
+    right: 7em;
+    filter: brightness(60%);
+    padding-top: 50px;
+}
+
+.digital {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    position: relative;
+    z-index: 6;
+}
+
+.content1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3em;
+}
+
+footer {
+    background-color: #acb09a;
+    position: relative;
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 3em;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4em;
+}
+
+footer h3 {
+    font-size: xx-large;
+    color: #60484c;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+footer h4 a {
+    color: #576048;
+    display: flex;
+    font-family: 'the-seasons', serif;
+    font-size: x-large;
+}
+
+.footer1 {
+    display: flex;
+}

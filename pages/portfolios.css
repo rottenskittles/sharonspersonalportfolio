@@ -1,0 +1,176 @@
+* {
+    position:relative;
+    z-index: 5;
+}
+
+html {
+    background-color:#c5a890;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+h1, h2, h3 {
+    font-family: 'the-seasons', serif;
+    color: #576048;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+
+p {
+    font-family: "Arapey", serif;
+    font-size: larger;
+    color: #576048;
+    position: relative;
+
+}
+
+
+
+.header {
+    position: absolute;
+    font-size: larger;
+    color: #60484c ;
+    z-index: 7;
+}
+
+.content {
+    z-index: 6;
+}
+
+.current {
+    color: #45463a
+}
+
+a {
+    color: #576048;
+    text-decoration: none;
+    padding: .5em;
+}
+
+p a {
+    color: #60484c;
+    font-size: larger;
+    padding: .3em;
+    margin-left: 10px;
+    text-decoration: underline .5px;
+}
+
+a:hover {
+    background-color: #576048;
+    color: #c6cbaf;
+    animation: fadein ease .5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+#overlay {
+    position:fixed;
+      width: 100%; 
+      height: 100%; 
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: url(/images/cardboard-texture.jpg);
+      background-size: cover;
+      animation: fadeinbg ease 1s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+      opacity: 0.3;
+        filter:brightness(50%);
+        z-index: 1;
+    }
+
+.drawings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+    
+}
+
+.pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+}
+
+.drawings img {
+    width: 40%;
+}
+ 
+.pics img {
+    width: 20%;
+}
+@keyframes fadein {
+    0% {
+      opacity: 50%;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.pageheader {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 40;
+    margin: 3em 0em 2.5em 0em;
+    right: 1px;
+}
+
+.underheaders {
+    padding-top: 12em;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+#circle {
+    position: absolute;
+    right: 7em;
+    opacity: 0.6;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #60484c;
+    position: relative;
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 3em;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 4em;
+}
+
+footer h3 {
+    font-size: xx-large;
+    color: #acb09a;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+footer h4 a {
+    color: #aa9593;
+    display: flex;
+    font-family: 'the-seasons', serif;
+    font-size: x-large;
+}
+
+.footer1 {
+    display: flex;
+}
